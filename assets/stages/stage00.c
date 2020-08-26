@@ -18,7 +18,9 @@ void stage00_init(void)
 	
 	instance_create(gameObjects, TYPE_OBJ_BEE, 32, 32);
 	drawHiBlocks();
-	displayText(str, 100, 100);
+
+	// Rmove this for now as it doesn't work
+	//displayText(str, 100, 100);
 }
 
 void stage00_update(void) 
